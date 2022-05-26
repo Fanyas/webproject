@@ -1,0 +1,489 @@
+body {
+    background-image: url('../img/bgforheader.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 3%;
+}
+header {
+    margin-bottom: 1%;
+}
+section {
+    border-radius: 4px;
+    /* border: solid black; */
+}
+.headerinf {
+    margin-left: 7%;
+}
+.intro {
+    box-shadow: 0px 0px 9px 3px rgba(34, 60, 80, 0.35);
+    background-color: rgba(218, 216, 216, 0.863);
+    margin: auto;
+    width: 85vw;
+    text-shadow: 0 0 10px ghostwhite;
+}
+.host {
+    display: inline-block;
+    position: relative;
+    font-size: 45px;
+    font-weight: 400;
+    left: 3%;
+    margin-bottom: -5%;
+}
+.about {
+    padding-left: 3%;
+    padding-right: 3%;
+    overflow: hidden;
+}
+.about img {
+    width: 291px;
+    float: right;
+    margin: 0 -55px 0 0px;
+    position: relative;
+    right: 8%;
+}
+a {
+    text-decoration: none;
+}
+.about p {
+    font-size: 18px;
+    vertical-align: top;
+}
+.block3 {
+    margin-top: 0;
+}
+.pimg {
+    width: 73%;
+    margin-right: 15px;
+    display: inline-block;
+}
+.usflinks {
+    /* box-shadow: 0px 0px 9px 3px rgba(34, 60, 80, 0.35);
+    background-color: rgba(218, 216, 216, 0.863);
+    margin: auto;
+    width: 85vw; */
+    text-align: center;
+    padding-bottom: 10px;
+}
+.usflinks p {
+    color: rgba(5, 136, 0, 0.829);
+    font-size: 45px;
+    /* margin-bottom: -2%; */
+    margin-top: 0px;
+    margin-bottom: -10px;
+    font-family: 'Koulen', cursive;
+}
+.usflinks div {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    transition: 1s;
+}
+.usflinks div:hover {
+    border-radius: 10px;
+    background-color: rgb(215 215 215 / 50%);
+    box-shadow: 0px 0px 20px 0px rgb(34 60 80 / 20%);
+}
+.usflinks div:hover a {
+    animation-name: fontsizechange;
+    animation-duration: 2s;
+    animation-iteration-count:  infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    text-decoration: underline;
+}
+.usflinks a:hover {
+    animation-play-state: paused;
+}
+.usflinks img {
+    position: absolute;
+    width: 105px;
+    left: 48px;
+    top: 35px;
+}
+.usflinks a {
+    font-family: 'Koulen', cursive;
+    font-size: 18px;
+    color: rgba(5, 136, 0, 0.829);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0;
+    bottom: 10px;
+}
+footer {
+    padding-top: 47px;
+}
+.ftr {
+    box-shadow: 0px 0px 9px 3px rgba(34, 60, 80, 0.35);
+    background-color: rgba(218, 216, 216, 0.863);
+    margin: auto;
+    width: 85vw;
+    /* margin-top: 4%; */
+}
+/* .conn {
+    position: relative;
+    top: 2vh;
+    padding-left: 3%;
+} */
+.conn p {
+    display: inline-block;
+    padding-left: 3%;
+}
+/* .vk {
+    position: relative;
+    margin-left: 23%;
+    bottom: 42%;
+} */
+.conn img {
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    left: -6px;
+    background-color: #2b5297;
+    width: 35px;
+    height: 35px;
+    margin: 0 20px;
+    border-radius: 50%;
+    transition: 1s;
+}
+.conn img:hover {
+    transform: rotate(360deg);
+}
+
+/*--------------------- newpl.html--------------------- */
+
+.sec1 {
+    box-shadow: 0px 0px 9px 3px rgba(34, 60, 80, 0.35);
+    background-color: rgba(218, 216, 216, 0.863);
+    margin: auto;
+    width: 85vw;
+    text-shadow: 0 0 10px ghostwhite;
+    padding-bottom: 1%;
+}
+.sec1fill {
+    padding-left: 3%;
+    padding-right: 3%;
+    overflow: hidden;
+}
+.sec1fill p {
+    font-size: 18px;
+    vertical-align: top;
+    width: auto;
+}
+.sec1logo {
+    float: right;
+}
+.sec1nav {
+    overflow: hidden;
+    border: 1px solid black;
+    margin-left: 3%;
+    /* margin-right: 61%; */
+    width: 30%;
+    padding-top: 0.5%;
+    display: inline-block;
+}
+.videos {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    vertical-align: top;
+    margin-left: 95px;
+    margin-top: 95px;
+}
+.videopack1 {
+    margin-right: 30px;
+    display: inline-block;
+}
+.videopack2 {
+    display: inline-block;
+    margin-right: 50px;
+}
+.video1 {
+    margin-bottom: 20px;
+}
+.video3 {
+    margin-bottom: 20px;
+}
+.navheader {
+    font-size: 18px;
+    padding-left: 5%;
+}
+.sec1nav a {
+    color: black;
+}
+.sec1nav li {
+    width: 95%;
+}
+.sec1nav li:hover {
+    box-shadow: 0px 0px 10px 4px rgba(34, 60, 80, 0.2);
+    background-color: rgba(148, 219, 148, 0.479);
+    border-radius: 4px;
+}
+.points {
+    padding-left: 3%;
+    padding-right: 3%;
+    overflow: hidden;
+}
+.sec1headers {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    margin-top: 3%;
+}
+.hbtn {
+    border-radius: 2px;
+    background-color: rgb(215 215 215 / 50%);
+    box-shadow: 0px 10px 10px -2px rgb(34 60 80 / 20%);
+}
+.sec1smalltree {
+    float: right;
+    position: relative;
+    bottom: 15px;
+}
+.sec1build1 p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    margin-right: 25px;
+}
+.sec1build1 img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.sec1build2 p {
+    display: inline-block;
+    width: 75%;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.sec1build2 img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.bioms {
+    font-size: 30px;
+    font-family: 'Koulen', cursive;
+    font-weight: bolder;
+    margin-bottom: 0;
+    margin-top: 3%;
+    color: rgba(5, 136, 0, 0.829);
+}
+.biompoints {
+    text-align: center;
+}
+.bossimg1 p {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+    margin-right: 2%;
+}
+.bossimg1 img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.bossimg2 p {
+    display: inline-block;
+    width: 62%;
+    vertical-align: middle;
+    margin-right: 2%;
+}
+.bossimg2 img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.bossarenaimg1 p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    margin-right: 2%;
+}
+.bossarenaimg1 img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.bossimg3 p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 61%;
+    margin-right: 2%;
+}
+.bossimg3 img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.bossimg4 p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 61%;
+    margin-right: 2%;
+}
+.bossimg4 img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.attention {
+    font-weight: bolder;
+}
+.eventimg {
+    text-align: center;
+}
+.sec1subtitle {
+    font-size: 25px;
+    font-weight: bolder;
+}
+.bossimg5 p {
+    margin-right: 2%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 62%;
+}
+.bossimg5 img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.bossimg6 p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 59%;
+    margin-right: 2%;
+}
+.bossimg6 img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.bossimg7 p {
+    margin-right: 2%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 64%;
+}
+.bossimg7 img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.tostart {
+    text-align: center;
+}
+.tostart a {
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgba(5, 136, 0, 0.829);
+    transition: 1s;
+}
+.tostart a:hover {
+    font-size: 35px;
+    box-shadow: 0px 0px 10px 4px rgba(34, 60, 80, 0.2);
+    background-color: rgba(148, 219, 148, 0.479);
+    border-radius: 4px;
+}
+/*--------------------- recipes.html--------------------- */
+.recipespage {
+    box-shadow: 0px 0px 9px 3px rgb(34 60 80 / 35%);
+    background-color: rgba(218, 216, 216, 0.863);
+    margin: auto;
+    width: 85vw;
+    text-shadow: 0 0 10px ghostwhite;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 30px;
+}
+.sry p {
+    font-size: 25px;
+}
+.links a {
+    color: rgba(5, 136, 0, 0.829);
+    font-size: 25px;
+    padding: 15px;
+    transition: 1s;
+}
+.links a:hover {
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px 3px rgb(34 60 80 / 35%);
+    background-color: rgba(218, 216, 216, 0.863);
+    text-decoration: underline;
+}
+/*---------------------анимки - начало--------------------- */
+.desert {
+    animation-name: despuls;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+.winter {
+    animation-name: winpuls;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+.corruption {
+    animation-name: corpuls;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+.undercorruption {
+    animation-name: undercorpuls;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+.crimson {
+    animation-name: crimpuls;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+.undercrimson {
+    animation-name: undercrimpuls;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+.flyingisland {
+    animation-name: flislpuls;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+.ocean {
+    animation-name: oceanpuls;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+.dungeon {
+    animation-name: dungpuls;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+.jungle {
+    animation-name: jungpuls;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+.hell {
+    animation-name: hellpuls;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+/*--------------------- анимки - конец--------------------- */
+/*--------------------- адаптивная вёрстка--------------------- */

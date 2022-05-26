@@ -1,0 +1,138 @@
+@keyframes despuls {
+    0% {
+        box-shadow: 0px 0px 10px -10px rgba(208, 202, 0, 1);
+    }
+    50% {
+        box-shadow: 0px 0px 10px 0px rgba(208, 202, 0, 1);
+    }
+    100% {
+        box-shadow: 0px 0px 10px 5px rgba(208, 202, 0, 1);
+    }
+}
+@keyframes winpuls {
+    0%{
+        box-shadow: 0px 0px 10px -10px rgba(169, 255, 236, 1);
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px rgba(169, 255, 236, 1);
+    }
+    100%{
+        box-shadow: 0px 0px 10px 5px rgba(169, 255, 236, 1);
+    }
+}
+@keyframes corpuls {
+    0%{
+        box-shadow: 0px 0px 10px -10px rgba(136, 61, 225, 1);
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px rgba(136, 61, 225, 1);
+    }
+    100%{
+        box-shadow: 0px 0px 10px 5px rgba(136, 61, 225, 1);
+    }
+}
+@keyframes undercorpuls {
+    0%{
+        box-shadow: 0px 0px 10px -10px rgba(29, 0, 64, 1);
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px rgba(29, 0, 64, 1);
+    }
+    100%{
+        box-shadow: 0px 0px 10px 5px rgba(29, 0, 64, 1);
+    }
+}
+@keyframes crimpuls {
+    0%{
+        box-shadow: 0px 0px 10px -10px rgba(223, 56, 56, 1);
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px rgba(223, 56, 56, 1);
+    }
+    100%{
+        box-shadow: 0px 0px 10px 5px rgba(223, 56, 56, 1);
+    }
+}
+@keyframes undercrimpuls {
+    0%{
+        box-shadow: 0px 0px 10px -10px rgba(85, 0, 0, 1);
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px rgba(85, 0, 0, 1);
+    }
+    100%{
+        box-shadow: 0px 0px 10px 5px rgba(85, 0, 0, 1);
+    }
+}
+@keyframes flislpuls {
+    0%{
+        box-shadow: 0px 0px 10px -10px rgba(0, 148, 189, 1);
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px rgba(0, 148, 189, 1);
+    }
+    100%{
+        box-shadow: 0px 0px 10px 5px rgba(0, 148, 189, 1);
+    }
+}
+@keyframes oceanpuls {
+    0%{
+        box-shadow: 0px 0px 10px -10px rgba(69, 139, 116, 1);
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px rgba(69, 139, 116, 1);
+    }
+    100%{
+        box-shadow: 0px 0px 10px 5px rgba(69, 139, 116, 1);
+    }
+}
+@keyframes dungpuls {
+    0%{
+        box-shadow: 0px 0px 10px -10px rgba(111, 95, 107, 1);
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px rgba(111, 95, 107, 1);
+    }
+    100%{
+        box-shadow: 0px 0px 10px 5px rgba(111, 95, 107, 1);
+    }
+}
+@keyframes jungpuls {
+    0%{
+        box-shadow: 0px 0px 10px -10px rgba(0, 161, 19, 1);
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px rgba(0, 161, 19, 1);
+    }
+    100%{
+        box-shadow: 0px 0px 10px 5px rgba(0, 161, 19, 1);
+    }
+}
+@keyframes hellpuls {
+    0%{
+        box-shadow: 0px 0px 10px -10px rgba(204, 85, 0, 1);
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px rgba(204, 85, 0, 1);
+    }
+    100%{
+        box-shadow: 0px 0px 10px 5px rgba(204, 85, 0, 1);
+    }
+}
+@keyframes fontsizechange {
+    0% {
+        font-size: 18px;
+    }
+    /* 25% {
+        font-size: 19px;
+    }
+    50% {
+        font-size: 20px;
+    }
+    75% {
+        font-size: 22px;
+    } */
+    100% {
+        font-size: 23px;
+    }
+}
